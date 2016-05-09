@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6473F431CDDF4C8008476D7 /* Player-DetailsViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6473F421CDDF4C8008476D7 /* Player-DetailsViewcontroller.swift */; };
+		B6473F451CDF12BF008476D7 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6473F441CDF12BF008476D7 /* GamePickerViewController.swift */; };
 		B6F134FA1CCAF29900BD80A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F134F91CCAF29900BD80A0 /* AppDelegate.swift */; };
 		B6F134FC1CCAF29900BD80A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F134FB1CCAF29900BD80A0 /* ViewController.swift */; };
 		B6F134FF1CCAF29900BD80A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F134FD1CCAF29900BD80A0 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6473F421CDDF4C8008476D7 /* Player-DetailsViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player-DetailsViewcontroller.swift"; sourceTree = "<group>"; };
+		B6473F441CDF12BF008476D7 /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 		B6F134F61CCAF29900BD80A0 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F134F91CCAF29900BD80A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6F134FB1CCAF29900BD80A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				B6F417E11CCB03B200FD1A99 /* PlayersViewController.xib */,
 				B6F417E41CCB046900FD1A99 /* Player.swift */,
 				B6F417E61CCB04CD00FD1A99 /* SampleData.swift */,
+				B6473F421CDDF4C8008476D7 /* Player-DetailsViewcontroller.swift */,
+				B6473F441CDF12BF008476D7 /* GamePickerViewController.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -271,8 +277,10 @@
 			files = (
 				B6F417E51CCB046900FD1A99 /* Player.swift in Sources */,
 				B6F134FC1CCAF29900BD80A0 /* ViewController.swift in Sources */,
+				B6473F451CDF12BF008476D7 /* GamePickerViewController.swift in Sources */,
 				B6F134FA1CCAF29900BD80A0 /* AppDelegate.swift in Sources */,
 				B6F417E71CCB04CD00FD1A99 /* SampleData.swift in Sources */,
+				B6473F431CDDF4C8008476D7 /* Player-DetailsViewcontroller.swift in Sources */,
 				B6F417E21CCB03B200FD1A99 /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

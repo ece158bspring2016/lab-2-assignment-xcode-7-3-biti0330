@@ -70,6 +70,24 @@ class PlayersViewController: UITableViewController {
         return UIImage(named: imageName)
     }
 
+    @IBAction func cancelToPlayersViewController(segue: UIStoryboardSegue){
+        
+    }
+    
+    @IBAction func savePlayerDetail(segue: UIStoryboardSegue){
+        if let Player_DetailsViewcontroller = segue.sourceViewController as? Player_DetailsViewcontroller {
+            
+            //add the new player to players array
+            if let player = Player_DetailsViewcontroller.player {
+                players.append(player)
+                
+                //update the tableView
+                let indexPath = NSIndexPath(forRow : players.count-1, inSection: 0)
+                tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+            }
+        }
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
